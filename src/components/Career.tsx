@@ -15,43 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Video Editor</h4>
+                <h5>Mothers Pride & Presidium School</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2014-2020</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Created educational videos for school content. Shot and edited interview & feedback videos. Produced promotional and advertisement videos. Managed social media video content.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Video Editor</h4>
+                <h5>E-Commerce Company</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2021-2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Created fashion and clothing product videos. Edited promotional content for online platforms. Worked on brand-focused visual storytelling.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Video Editor & Videographer</h4>
+                <h5>YAMARKETS Company</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2023-NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Created educational and advertisement videos. Produced paranormal content for YouTube & Instagram. Handled videography including camera setup and lighting. Edited videos using Premiere Pro & After Effects. Designed content using Canva and Photoshop.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Freelance Video Editor</h4>
+                <h5>OKNA Company</h5>
+              </div>
+              <h3>2024-NOW</h3>
+            </div>
+            <p>
+              Creating social media and promotional video content. Editing reels, ads, and branded videos. Working with clients remotely on freelance projects. Delivering optimized content for Instagram & marketing campaigns.
             </p>
           </div>
         </div>

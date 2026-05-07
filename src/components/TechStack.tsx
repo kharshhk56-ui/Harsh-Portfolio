@@ -13,14 +13,15 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/Images/Adobe%20Premire.jpeg",
+  "/Images/adobe%20illustrator.jpg",
+  "/Images/AI%20tool%20.jpg",
+  "/Images/After%20Effect.jpg",
+  "/Images/Photoshop.jpeg",
+  "/Images/Canva.jpg",
+  "/Images/VN.jpg",
+  "/Images/Canon-Logo.jpg",
+  "/Images/Camer%20Light.jpg",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -151,24 +152,25 @@ const TechStack = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const materials = useMemo(() => {
-    return textures.map(
-      (texture) =>
-        new THREE.MeshPhysicalMaterial({
-          map: texture,
-          emissive: "#ffffff",
-          emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
-        })
-    );
+    return textures.map((texture) => {
+      texture.colorSpace = THREE.SRGBColorSpace;
+      return new THREE.MeshPhysicalMaterial({
+        map: texture,
+        emissive: "#ffffff",
+        emissiveMap: texture,
+        emissiveIntensity: 0.3,
+        metalness: 0.5,
+        roughness: 1,
+        clearcoat: 0.1,
+      });
+    });
   }, []);
 
   return (
     <div className="techstack">
-      <h2> My Techstack</h2>
+      <h2> My Software & Tools</h2>
 
       <Canvas
         shadows

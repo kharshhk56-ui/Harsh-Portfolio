@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Creative and detail-oriented AI Video Editor and Videographer with strong experience in producing engaging videos for social media, educational content, and advertisements. Skilled in Adobe Premiere Pro, After Effects, Photoshop, and Canva. Passionate about creating cinematic visuals and delivering high-quality video content for brands and digital platforms.
         </p>
       </div>
     </div>
